@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from torchvision.models.resnet import BasicBlock, Bottleneck
-from torchvision.models.resnet import model_urls
+from torchvision.models.resnet import ResNet50_Weights
 
 class ResNetBackbone(nn.Module):
 
